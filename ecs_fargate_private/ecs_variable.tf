@@ -65,7 +65,7 @@ variable "dnsnjappalb" {
 
 variable "pub-subnets" {
 	type = "list"
-	default = ["subnet-052eac13b74d9ccfd", "subnet-08deac635bd8e87a5", "subnet-00afec0254cfc8243"]
+	default = ["subnet-08deac635bd8e87a5", "subnet-00afec0254cfc8243"]
 	}
 variable "pri-subnets" {
 	type = "list"
